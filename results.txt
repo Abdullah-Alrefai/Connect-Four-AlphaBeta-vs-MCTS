@@ -1,0 +1,82 @@
+Playing 30 games, 15 s per move, 6 games at a time.
+[1/30 finished] Game 1 | seed 1 | first: alpha-beta | winner: MCTS
+[2/30 finished] Game 3 | seed 3 | first: alpha-beta | winner: MCTS
+[3/30 finished] Game 2 | seed 2 | first: alpha-beta | winner: alpha-beta
+[4/30 finished] Game 5 | seed 5 | first: alpha-beta | winner: MCTS
+[5/30 finished] Game 6 | seed 6 | first: alpha-beta | winner: alpha-beta
+[6/30 finished] Game 4 | seed 4 | first: alpha-beta | winner: alpha-beta
+[7/30 finished] Game 8 | seed 8 | first: alpha-beta | winner: MCTS
+[8/30 finished] Game 9 | seed 9 | first: alpha-beta | winner: MCTS
+[9/30 finished] Game 7 | seed 7 | first: alpha-beta | winner: alpha-beta
+[10/30 finished] Game 10 | seed 10 | first: alpha-beta | winner: alpha-beta
+[11/30 finished] Game 11 | seed 11 | first: alpha-beta | winner: alpha-beta
+[12/30 finished] Game 12 | seed 12 | first: alpha-beta | winner: alpha-beta
+[13/30 finished] Game 13 | seed 13 | first: alpha-beta | winner: alpha-beta
+[14/30 finished] Game 15 | seed 15 | first: alpha-beta | winner: MCTS
+[15/30 finished] Game 14 | seed 14 | first: alpha-beta | winner: alpha-beta
+[16/30 finished] Game 18 | seed 18 | first: MCTS | winner: MCTS
+[17/30 finished] Game 16 | seed 16 | first: MCTS | winner: MCTS
+[18/30 finished] Game 17 | seed 17 | first: MCTS | winner: MCTS
+[19/30 finished] Game 19 | seed 19 | first: MCTS | winner: MCTS
+[20/30 finished] Game 20 | seed 20 | first: MCTS | winner: MCTS
+[21/30 finished] Game 21 | seed 21 | first: MCTS | winner: MCTS
+[22/30 finished] Game 22 | seed 22 | first: MCTS | winner: MCTS
+[23/30 finished] Game 24 | seed 24 | first: MCTS | winner: MCTS
+[24/30 finished] Game 23 | seed 23 | first: MCTS | winner: MCTS
+[25/30 finished] Game 25 | seed 25 | first: MCTS | winner: MCTS
+[26/30 finished] Game 26 | seed 26 | first: MCTS | winner: MCTS
+[27/30 finished] Game 28 | seed 28 | first: MCTS | winner: MCTS
+[28/30 finished] Game 27 | seed 27 | first: MCTS | winner: MCTS
+[29/30 finished] Game 29 | seed 29 | first: MCTS | winner: MCTS
+[30/30 finished] Game 30 | seed 30 | first: MCTS | winner: MCTS
+
+Game record (seed = random seed used for that game)
+Game  Seed  Moved first  Winner
+   1     1  alpha-beta   MCTS
+   2     2  alpha-beta   alpha-beta
+   3     3  alpha-beta   MCTS
+   4     4  alpha-beta   alpha-beta
+   5     5  alpha-beta   MCTS
+   6     6  alpha-beta   alpha-beta
+   7     7  alpha-beta   alpha-beta
+   8     8  alpha-beta   MCTS
+   9     9  alpha-beta   MCTS
+  10    10  alpha-beta   alpha-beta
+  11    11  alpha-beta   alpha-beta
+  12    12  alpha-beta   alpha-beta
+  13    13  alpha-beta   alpha-beta
+  14    14  alpha-beta   alpha-beta
+  15    15  alpha-beta   MCTS
+  16    16  MCTS         MCTS
+  17    17  MCTS         MCTS
+  18    18  MCTS         MCTS
+  19    19  MCTS         MCTS
+  20    20  MCTS         MCTS
+  21    21  MCTS         MCTS
+  22    22  MCTS         MCTS
+  23    23  MCTS         MCTS
+  24    24  MCTS         MCTS
+  25    25  MCTS         MCTS
+  26    26  MCTS         MCTS
+  27    27  MCTS         MCTS
+  28    28  MCTS         MCTS
+  29    29  MCTS         MCTS
+  30    30  MCTS         MCTS
+
+Totals
+  Alpha-beta wins: 9
+  MCTS wins:       21
+  Draws:           0
+
+Results by which method moved first
+Moved first  Games  Alpha-beta wins  MCTS wins  Draws
+alpha-beta      15                9          6      0
+MCTS            15                0         15      0
+
+Move time and search effort
+  Alpha-beta: mean move time 10.618 s over 462 moves; mean deepest completed depth d = 10.75 (AIMA cutoff d looks d + 1 moves ahead)
+  MCTS:       mean move time 15.000 s over 468 moves; mean simulations per move = 160,007
+
+MCTS won more often (21 to 9).
+
+ALL 30 GAMES FINISHED
